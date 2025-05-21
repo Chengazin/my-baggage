@@ -1,0 +1,506 @@
+[
+    {
+      "airline": "Ryanair",
+      "carry_on": {
+        "max_length_cm": 55,
+        "max_width_cm": 40,
+        "max_height_cm": 20,
+        "max_weight_kg": 10
+      },
+      "personal_item": {
+        "max_length_cm": 40,
+        "max_width_cm": 20,
+        "max_height_cm": 25,
+        "max_weight_kg": null
+      },
+      "checked_baggage": {
+        "max_length_cm": 81,
+        "max_width_cm": 119,
+        "max_height_cm": 119,
+        "max_weight_kg": [10, 20]
+      },
+      "tariffs": [
+        {
+          "name": "Basic",
+          "carry_on": {
+            "max_length_cm": 40,
+            "max_width_cm": 20,
+            "max_height_cm": 25,
+            "max_weight_kg": null
+          },
+          "checked_baggage": {
+            "max_length_cm": 81,
+            "max_width_cm": 119,
+            "max_height_cm": 119,
+            "max_weight_kg": 10
+          }
+        },
+        {
+          "name": "Priority",
+          "carry_on": {
+            "max_length_cm": 55,
+            "max_width_cm": 40,
+            "max_height_cm": 20,
+            "max_weight_kg": 10
+          },
+          "checked_baggage": {
+            "max_length_cm": 81,
+            "max_width_cm": 119,
+            "max_height_cm": 119,
+            "max_weight_kg": 20
+          }
+        }
+      ]
+    },
+    {
+      "airline": "Wizz Air",
+      "carry_on": {
+        "max_length_cm": 55,
+        "max_width_cm": 40,
+        "max_height_cm": 23,
+        "max_weight_kg": 10
+      },
+      "personal_item": {
+        "max_length_cm": 40,
+        "max_width_cm": 30,
+        "max_height_cm": 20,
+        "max_weight_kg": null
+      },
+      "checked_baggage": {
+        "max_length_cm": 149,
+        "max_width_cm": 119,
+        "max_height_cm": 171,
+        "max_weight_kg": [10, 20, 26, 32]
+      },
+      "tariffs": [
+        {
+          "name": "Standard",
+          "carry_on": {
+            "max_length_cm": 40,
+            "max_width_cm": 30,
+            "max_height_cm": 20,
+            "max_weight_kg": null
+          },
+          "checked_baggage": {
+            "max_length_cm": 149,
+            "max_width_cm": 119,
+            "max_height_cm": 171,
+            "max_weight_kg": 10
+          }
+        },
+        {
+          "name": "Priority",
+          "carry_on": {
+            "max_length_cm": 55,
+            "max_width_cm": 40,
+            "max_height_cm": 23,
+            "max_weight_kg": 10
+          },
+          "checked_baggage": {
+            "max_length_cm": 149,
+            "max_width_cm": 119,
+            "max_height_cm": 171,
+            "max_weight_kg": 20
+          }
+        }
+      ]
+    },
+    {
+      "airline": "easyJet",
+      "carry_on": {
+        "max_length_cm": 56,
+        "max_width_cm": 45,
+        "max_height_cm": 25,
+        "max_weight_kg": 15
+      },
+      "personal_item": {
+        "max_length_cm": 45,
+        "max_width_cm": 36,
+        "max_height_cm": 20,
+        "max_weight_kg": 15
+      },
+      "checked_baggage": {
+        "max_length_cm": null,
+        "max_width_cm": null,
+        "max_height_cm": null,
+        "max_linear_cm": 275,
+        "max_weight_kg": [15, 20, 23, 32]
+      },
+      "tariffs": [
+        {
+          "name": "Standard",
+          "carry_on": {
+            "max_length_cm": 45,
+            "max_width_cm": 36,
+            "max_height_cm": 20,
+            "max_weight_kg": 15
+          },
+          "checked_baggage": {
+            "max_linear_cm": 275,
+            "max_weight_kg": 20
+          }
+        },
+        {
+          "name": "Up Front",
+          "carry_on": {
+            "max_length_cm": 56,
+            "max_width_cm": 45,
+            "max_height_cm": 25,
+            "max_weight_kg": 15
+          },
+          "checked_baggage": {
+            "max_linear_cm": 275,
+            "max_weight_kg": 23
+          }
+        }
+      ]
+    },
+    {
+      "airline": "AirAsia",
+      "carry_on": {
+        "max_length_cm": 56,
+        "max_width_cm": 36,
+        "max_height_cm": 23,
+        "max_weight_kg": 7
+      },
+      "personal_item": null,
+      "checked_baggage": {
+        "max_length_cm": 119,
+        "max_width_cm": 81,
+        "max_height_cm": 119,
+        "max_weight_kg": [20, 32, 40]
+      },
+      "tariffs": [
+        {
+          "name": "Basic",
+          "carry_on": {
+            "max_length_cm": 56,
+            "max_width_cm": 36,
+            "max_height_cm": 23,
+            "max_weight_kg": 7
+          },
+          "checked_baggage": {
+            "max_weight_kg": 20
+          }
+        },
+        {
+          "name": "Premium Flex",
+          "carry_on": {
+            "max_length_cm": 56,
+            "max_width_cm": 36,
+            "max_height_cm": 23,
+            "max_weight_kg": 7
+          },
+          "checked_baggage": {
+            "max_weight_kg": 40
+          }
+        }
+      ]
+    },
+    {
+      "airline": "Spirit Airlines",
+      "carry_on": {
+        "max_length_cm": 56,
+        "max_width_cm": 46,
+        "max_height_cm": 25,
+        "max_weight_kg": null
+      },
+      "personal_item": {
+        "max_length_cm": 45,
+        "max_width_cm": 35,
+        "max_height_cm": 20,
+        "max_weight_kg": null
+      },
+      "checked_baggage": {
+        "max_linear_cm": 158,
+        "max_weight_kg": [22.6, 45]
+      },
+      "tariffs": [
+        {
+          "name": "Go",
+          "carry_on": null,
+          "personal_item": {
+            "max_length_cm": 45,
+            "max_width_cm": 35,
+            "max_height_cm": 20,
+            "max_weight_kg": null
+          },
+          "checked_baggage": {
+            "max_linear_cm": 158,
+            "max_weight_kg": 22.6
+          }
+        },
+        {
+          "name": "Go Big",
+          "carry_on": {
+            "max_length_cm": 56,
+            "max_width_cm": 46,
+            "max_height_cm": 25,
+            "max_weight_kg": null
+          },
+          "personal_item": {
+            "max_length_cm": 45,
+            "max_width_cm": 35,
+            "max_height_cm": 20,
+            "max_weight_kg": null
+          },
+          "checked_baggage": {
+            "max_linear_cm": 158,
+            "max_weight_kg": 22.6
+          }
+        }
+      ]
+    },
+    {
+      "airline": "Frontier Airlines",
+      "carry_on": {
+        "max_length_cm": 61,
+        "max_width_cm": 25,
+        "max_height_cm": 41,
+        "max_weight_kg": 15.9
+      },
+      "personal_item": {
+        "max_length_cm": 35,
+        "max_width_cm": 46,
+        "max_height_cm": 20,
+        "max_weight_kg": null
+      },
+      "checked_baggage": {
+        "max_linear_cm": 158,
+        "max_weight_kg": [18, 23, 45]
+      },
+      "tariffs": [
+        {
+          "name": "Standard",
+          "carry_on": {
+            "max_length_cm": 61,
+            "max_width_cm": 25,
+            "max_height_cm": 41,
+            "max_weight_kg": 15.9
+          },
+          "checked_baggage": {
+            "max_linear_cm": 158,
+            "max_weight_kg": 18
+          }
+        },
+        {
+          "name": "Elite",
+          "carry_on": {
+            "max_length_cm": 61,
+            "max_width_cm": 25,
+            "max_height_cm": 41,
+            "max_weight_kg": 15.9
+          },
+          "checked_baggage": {
+            "max_linear_cm": 158,
+            "max_weight_kg": 45
+          }
+        }
+      ]
+    },
+    {
+      "airline": "Pobeda",
+      "carry_on": {
+        "max_length_cm": 36,
+        "max_width_cm": 30,
+        "max_height_cm": 27,
+        "max_weight_kg": 5
+      },
+      "personal_item": null,
+      "checked_baggage": {
+        "max_linear_cm": 203,
+        "max_weight_kg": [10, 20, 32]
+      },
+      "tariffs": [
+        {
+          "name": "Vygodny",
+          "carry_on": {
+            "max_length_cm": 36,
+            "max_width_cm": 30,
+            "max_height_cm": 27,
+            "max_weight_kg": 5
+          },
+          "checked_baggage": {
+            "max_linear_cm": 203,
+            "max_weight_kg": 10
+          }
+        },
+        {
+          "name": "Maksimum",
+          "carry_on": {
+            "max_length_cm": 36,
+            "max_width_cm": 30,
+            "max_height_cm": 27,
+            "max_weight_kg": 5
+          },
+          "checked_baggage": {
+            "max_linear_cm": 203,
+            "max_weight_kg": 32
+          }
+        }
+      ]
+    },
+    {
+      "airline": "Utair",
+      "carry_on": {
+        "max_length_cm": 40,
+        "max_width_cm": 30,
+        "max_height_cm": 20,
+        "max_weight_kg": 5
+      },
+      "personal_item": null,
+      "checked_baggage": {
+        "max_length_cm": null,
+        "max_width_cm": null,
+        "max_height_cm": null,
+        "max_weight_kg": 20
+      },
+      "tariffs": [
+        {
+          "name": "Optimum",
+          "carry_on": {
+            "max_length_cm": 40,
+            "max_width_cm": 30,
+            "max_height_cm": 20,
+            "max_weight_kg": 5
+          },
+          "checked_baggage": {
+            "max_weight_kg": 20
+          }
+        },
+        {
+          "name": "Premium",
+          "carry_on": {
+            "max_length_cm": 55,
+            "max_width_cm": 40,
+            "max_height_cm": 25,
+            "max_weight_kg": 10
+          },
+          "checked_baggage": {
+            "max_weight_kg": 20
+          }
+        }
+      ]
+    },
+    {
+      "airline": "Aeroflot",
+      "carry_on": {
+        "max_length_cm": 55,
+        "max_width_cm": 40,
+        "max_height_cm": 25,
+        "max_weight_kg": 10
+      },
+      "personal_item": null,
+      "checked_baggage": {
+        "max_linear_cm": 158,
+        "max_weight_kg": 23
+      },
+      "tariffs": [
+        {
+          "name": "Economy",
+          "carry_on": {
+            "max_length_cm": 40,
+            "max_width_cm": 30,
+            "max_height_cm": 20,
+            "max_weight_kg": null
+          },
+          "checked_baggage": {
+            "max_weight_kg": 10
+          }
+        },
+        {
+          "name": "Business",
+          "carry_on": {
+            "max_length_cm": 55,
+            "max_width_cm": 40,
+            "max_height_cm": 25,
+            "max_weight_kg": 10
+          },
+          "checked_baggage": {
+            "max_weight_kg": 23
+          }
+        }
+      ]
+    },
+    {
+      "airline": "Nordwind",
+      "carry_on": {
+        "max_length_cm": 55,
+        "max_width_cm": 40,
+        "max_height_cm": 20,
+        "max_weight_kg": 5
+      },
+      "personal_item": null,
+      "checked_baggage": {
+        "max_linear_cm": null,
+        "max_weight_kg": [30, 50]
+      },
+      "tariffs": [
+        {
+          "name": "Light",
+          "carry_on": {
+            "max_length_cm": 40,
+            "max_width_cm": 30,
+            "max_height_cm": 20,
+            "max_weight_kg": 5
+          },
+          "checked_baggage": {
+            "max_weight_kg": 30
+          }
+        },
+        {
+          "name": "Premium",
+          "carry_on": {
+            "max_length_cm": 55,
+            "max_width_cm": 40,
+            "max_height_cm": 20,
+            "max_weight_kg": 5
+          },
+          "checked_baggage": {
+            "max_weight_kg": 50
+          }
+        }
+      ]
+    },
+    {
+      "airline": "S7",
+      "carry_on": {
+        "max_length_cm": 55,
+        "max_width_cm": 40,
+        "max_height_cm": 20,
+        "max_weight_kg": 10
+      },
+      "personal_item": null,
+      "checked_baggage": {
+        "max_linear_cm": 158,
+        "max_weight_kg": 23
+      },    
+      "tariffs": [
+        {
+          "name": "Basic",
+          "carry_on": {
+            "max_length_cm": 40,
+            "max_width_cm": 30,
+            "max_height_cm": 20,
+            "max_weight_kg": null
+          },
+          "checked_baggage": {
+            "max_weight_kg": 10
+          }
+        },
+        {
+          "name": "Premium",
+          "carry_on": {
+            "max_length_cm": 55,
+            "max_width_cm": 40,
+            "max_height_cm": 20,
+            "max_weight_kg": 10
+          },
+          "checked_baggage": {
+            "max_weight_kg": 23
+          }
+        }
+      ]
+    }
+  ]
+  
